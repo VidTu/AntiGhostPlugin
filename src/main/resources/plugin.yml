@@ -1,0 +1,12 @@
+name: AntiGhostPlugin
+version: 1.0.0
+main: ru.vidtu.antighostplugin.AntiGhostPlugin
+description: 'Server-side companion plugin for the AntiGhost mod.'
+api-version: 1.20
+author: VidTu
+website: 'https://github.com/VidTu/AntiGhostPlugin'
+commands:
+  antighost:
+    usage: /antighost
+    description: 'AntiGhost reload command.'
+    permission: antighost.reload

@@ -1,0 +1,13 @@
+# Available modes:
+# ENABLED - Uses default vanilla strategy.
+# DISABLED - Disables the mod.
+# CUSTOM - Uses server resend strategy via custom payloads with configurable radius.
+mode: ENABLED
+
+# Radius for CUSTOM mode.
+# Setting to 0 will disable sending block updates, but will allow other plugins receive block update requests.
+radius: 4
+
+# Rate-limit for CUSTOM mode in milliseconds.
+# Setting to 0 will disable it.
+rateLimit: 1000
